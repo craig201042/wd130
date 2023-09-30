@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Actor&family=Anton&family=Gabarito:wght@600&display=swap');
+:root{
+    --primary-color: #478C4F;
+    --secondary-color: #478C4F;
+    --accent1-color: #FBFBFF;
+    --accent2-color: #F8F1E3;
+
+    --heading-font: 'Anton', serif;
+    --paragrah-font: 'Gabarito', serif;
+
+    --nav-background-color: #E7DFC6;
+    --nav-link-color: #176087;
+    --nav-hover-link-color: #1D84B5;
+    --nav-hover-background-color: #FFFFFF;
+}
+h1,h2{
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+header{
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+header nav{
+    float: inline-end;
+}
+body{
+    font-family: var(--paragrah-font);
+    max-width: 960px;
+    padding: 20px;
+}
+p{
+    padding: 25px;
+    color: #000;
+}
+nav a:link{
+    color: var(--nav-link-color);
+    text-decoration: underline;
+}
+.hero{
+    margin: 10px auto;
+    position: relative;
+}
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+article img{
+    float: right;
+}
+h1 {
+	position: absolute;
+    text-align: center;
+	font-size: 1.5rem;
+	text-shadow: 3px 3px 5px #777;
+}
+article{
+    position: absolute;
+    background-color: #F8F1E3;
+    opacity: 0.8;
+}
