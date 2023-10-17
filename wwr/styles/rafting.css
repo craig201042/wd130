@@ -75,14 +75,12 @@ article{
     opacity: 0.8;
 }
 nav{
-	text-align: center;
+	flex: 1 1 100%;
+    text-align: center;
 }
 .navigation{
 	display: flex;
 	list-style: none;
-}
-.navigation li{
-	flex: 1 1 100%;
 }
 .navigation a{
 	display: block;
