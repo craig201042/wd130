@@ -13,7 +13,7 @@
     --nav-hover-link-color: #1D84B5;
     --nav-hover-background-color: #FFFFFF;
 }
-h1,h2{
+h1,h2,h3{
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
@@ -58,11 +58,6 @@ p{
     width: 100%;
     height: auto;
 }
-article img{
-    width: 100px;
-    height: 100px;
-    float: right;
-}
 h1{
 	position: absolute;
     left: 550px;
@@ -70,15 +65,17 @@ h1{
 	text-shadow: 3px 3px 5px #777;
 }
 article{
-    position: absolute;
+    width: 100%;
     background-color: #F8F1E3;
     opacity: 0.8;
 }
-
+nav{
+	flex: 1 1 100%;
+    text-align: center;
+}
 .navigation{
 	display: flex;
 	list-style: none;
-    justify-content: space-evenly;
 }
 .navigation a{
 	display: block;
@@ -93,11 +90,12 @@ footer{
 }
 .adventure{
     display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
 	align-items: center;
+    text-align: center;
 }
 .adventure img{
     width: 150px;
-     height: 150px;
+    height: 150px;
+    text-align: center;
 }
-
