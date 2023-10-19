@@ -124,7 +124,6 @@ footer{
 }
 .form-item{
         display: grid;
-        align-items: left;
 }
 .column1{
     grid-template-columns: 3fr 1fr;
@@ -158,4 +157,8 @@ section ul{
     margin: 2px auto;
     padding: 0.5rem;
     align-items: flex-start;
+}
+iframe{width: 200px;
+       height: 200px; 
+       border: 1px solid rgba(0, 0, 0, 0.1);
 }
