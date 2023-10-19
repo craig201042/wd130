@@ -69,13 +69,10 @@ article{
     background-color: #F8F1E3;
     opacity: 0.8;
 }
-nav{
-	flex: 1 1 100%;
-    text-align: center;
-}
 .navigation{
 	display: flex;
 	list-style: none;
+    justify-content: space-evenly;
 }
 .navigation a{
 	display: block;
@@ -86,16 +83,22 @@ nav{
 footer{
     display: grid;
 	grid-template-columns: 2fr 1fr;
-	align-items: center;
+	align-items: flex-end;
 }
 .adventure{
+    background-color: var(--accent1-color);
     display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	align-items: center;
-    text-align: center;
 }
 .adventure img{
     width: 150px;
     height: 150px;
     text-align: center;
+}
+.description{
+    background-color: var(--accent1-color);
+    display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	align-items: top;
 }
