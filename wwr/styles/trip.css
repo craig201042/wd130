@@ -100,5 +100,27 @@ footer{
     background-color: var(--accent1-color);
     display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	align-items: top;
+}
+table {
+    table-layout: fixed;
+    width: 100%;
+    border: 3px solid #478C4F;
+}
+td {
+    border: 3px solid #F8F1E3;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+button{
+    margin: 1rem;
+    padding: 1rem;
+    color: #000;
+    background-color: azure;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+}
+button:hover{
+    background-color: blue;
 }

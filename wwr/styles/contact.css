@@ -52,6 +52,7 @@ body{
 .navigation{
 	display: flex;
 	list-style: none;
+    justify-content: space-evenly;
 }
 .navigation a{
 	display: block;
