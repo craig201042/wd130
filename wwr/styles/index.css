@@ -65,7 +65,7 @@ footer{
 	grid-template-columns: 2fr 1fr;
 	align-items: center;
 }
-form{
+.form1{
     width: 600px;
     margin: 0 auto;
     padding: 1rem;
@@ -155,16 +155,4 @@ article{
     width: 100%;
     background-color: #F8F1E3;
     opacity: 0.8;
-}
-button{
-    margin: 1rem;
-    padding: 1rem;
-    color: #000;
-    background-color: azure;
-    border-radius: 0.5rem;
-    font-size: 1.2rem;
-    left: 20px
-}
-button:hover{
-    background-color: blue;
 }
